@@ -43,12 +43,11 @@ let song: {
 let prices = [100, 200, 300];
 prices[0] = '$100';
 // A: let prices: number[] = [100, 200, 300];
-//prices can not be reassigned as a string of '$100 because it was declared as a number 
+//prices can not be reassigned as a string of '$100' because it was declared as a number 
 
 function myFunc(a: number, b: number): number {}
 // A: function myFunc(a: number, b: number): number => {}
-
-
+//Says it's going to return a number but it not returning anything
 
 
 //CodeWars
